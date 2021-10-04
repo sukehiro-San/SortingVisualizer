@@ -1,0 +1,14 @@
+Sentiment analysis is the process of extracting the information from the people’s opinions, sentiments, attitudes and emotions expressed through written language. It is one of the active research in the area of Natural Language Processing and text mining in recent years. It is one of popular case study because it has wide range of applications because opinions are central to almost all human activities and are key influencers of our behaviors especially in Business Intelligence. Twitter was best choice at the time of selection instead of other Social media platforms for one simple reason, it has the   largest community of majority of organizations (private or Government) and public figures. We tried to implement a prototype sentiment analysis web application that uses twitter API, hence the name “Twitter Sentiment Analysis”.
+
+This report describes the analysis, design, Interface and implementation of a Web Application System that uses indigenously developed tweet sentiment API that provides essential sentiment analysis data for the project. This API is integrated with Front-End Application built over MEAN (mongo DB, ExpressJS, Angular, and NodeJS) STACK.
+
+The following topics are covered by the report:
+
+•	A description of the framework or web application that we created for twitter sentiment analysis.
+•	Demonstration of a Working system that uses API, and Database system.
+•	Explanation of the implementation of Python NLTK & Text Blob libraries for analysis work.
+•	Analysis of how data can be useful for making decisions and building Strategies.
+
+
+
+T                 W                 E                 E                 T                 Y
