@@ -27,3 +27,8 @@
 
 - The delay in animation and *time complexities* do not represent the real *time complexities* of the actual sorting algorithm. 
 - The working of algorithms may be modified for optimizations, it may not reflect the actual implementation of the sorting algorithms.
+
+---
+
+**Regards,**
+***Sunny Kewat***
