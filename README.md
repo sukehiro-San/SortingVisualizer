@@ -5,9 +5,9 @@ it allows the users to select the sort algorithm, select the array size, and spe
 
 ---
 ### Currently Available Sorting Algorithms:
--**Bubble Sort**
--**Cocktail Shake Sort**
--**Insertion Sort**
--**Merge Sort**
--**Quick Sort**
--**Selection Sort**
+- **Bubble Sort**
+- **Cocktail Shake Sort**
+- **Insertion Sort**
+- **Merge Sort**
+- **Quick Sort**
+- **Selection Sort**
