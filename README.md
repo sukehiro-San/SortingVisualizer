@@ -30,5 +30,5 @@
 
 ---
 
-**Regards,**.
+**Regards,.**
 ***Sunny Kewat***
