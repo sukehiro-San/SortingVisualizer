@@ -6,6 +6,7 @@
 - Built on **Angular 11**.
 
 ---
+
 ### Currently Available Sorting Algorithms:
 
 - **Bubble Sort**
@@ -16,6 +17,7 @@
 - **Selection Sort**
 
 ---
+
 ### Technologies used:
 
 - *Angular 11.2*.
@@ -23,6 +25,7 @@
 - *CSS / HTML / TypeScript*.
 
 ---
+
 ### Points to be noted:
 
 - The delay in animation and *time complexities* do not represent the real *time complexities* of the actual sorting algorithm. 
