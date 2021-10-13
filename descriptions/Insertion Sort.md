@@ -186,3 +186,14 @@ Now, let's see the time complexity of insertion sort in best case, average case,
 | O(1)      | YES     |
 * The space complexity of insertion sort is O(1). It is because, in insertion sort, an extra variable is required for swapping.
 ---
+
+## Advantages of Insertion sort over other sorting techniques
+* The pure simplicity of the algorithm.
+* The relative order of items with equal keys does not change.
+* The ability to sort a list as it is being received.
+* Efficient for small data sets, especially in practice than other quadratic algorithms — i.e. O(n²).
+* It only requires a constant amount of additional memory space — O(1).
+
+## Disadvantages of Insertion sort over other sorting techniques
+* It is less efficient on list containing more number of elements.As the number of elements increases the performance of the program would be slow.There is a single disadvantage: it is  O(N<sup>2</sup>). on average, and so for large  N  it is usually very slow.
+* Insertion sort needs a large number of element shifts.
