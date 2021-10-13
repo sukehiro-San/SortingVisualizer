@@ -19,3 +19,20 @@ The same approach is applied in insertion sort. The idea behind the insertion so
 7.	[Space complexity of insertion sort](#space-complexity)
 8.	[Advantages of Insertion sort over other sorting techniques](#advantages-of-insertion-sort-over-other-sorting-techniques)
 9.	[Disadvantages of Insertion sort over other sorting techniques](#disadvantages-of-insertion-sort-over-other-sorting-techniques)
+
+## Algorithm
+Now we have a bigger picture of how this sorting technique works, so we can derive simple steps by which we can achieve insertion sort.
+```sh
+Step 1 − If it is the first element, it is already sorted. return 1;
+
+Step 2 − Pick next element
+
+Step 3 − Compare with all elements in the sorted sub-list
+
+Step 4 − Shift all the elements in the sorted sub-list that is greater than the 
+         value to be sorted
+         
+Step 5 − Insert the value
+
+Step 6 − Repeat until list is sorted
+```
