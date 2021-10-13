@@ -169,3 +169,20 @@ class InsertionSort {
 ```
 ---
 
+## Insertion sort complexity
+Now, let's see the time complexity of insertion sort in best case, average case, and in worst case. We will also see the space complexity of insertion sort.
+
+
+> ## Time Complexity	 
+|Case    |Complexity|Description|
+|--------|----------|-----------|
+|Best	 |  O(n)   |It occurs when there is no sorting required, i.e. the array is already sorted. The best-case time complexity of insertion sort is O(n).|
+|Worst	 |  O(n<sup>2</sup>)   |It occurs when the array elements are in jumbled order that is not properly ascending and not properly descending. The average case time complexity of insertion sort is O(n<sup>2</sup>).|
+|Average |  O(n<sup>2</sup>)   |It occurs when the array elements are required to be sorted in reverse order. That means suppose you have to sort the array elements in ascending order, but its elements are in descending order. The worst-case time complexity of insertion sort is O(n<sup>2</sup>).|
+
+> ## Space Complexity
+| Space Complexity  | Stable |
+| ------------- |:-------------:|
+| O(1)      | YES     |
+* The space complexity of insertion sort is O(1). It is because, in insertion sort, an extra variable is required for swapping.
+---
