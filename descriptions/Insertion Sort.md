@@ -36,3 +36,60 @@ Step 5 − Insert the value
 
 Step 6 − Repeat until list is sorted
 ```
+
+## Working of Insertion sort Algorithm
+* <b>We take an unsorted array for our example.</b>
+
+![image](https://user-images.githubusercontent.com/59999317/137070380-1e334d01-ceee-4821-8032-e78f52e51539.png)
+
+* <b>Insertion sort compares the first two elements.</b>
+
+![image](https://user-images.githubusercontent.com/59999317/137071317-4cb3ba05-20e8-4e50-8195-6fa6e01ae5b1.png)
+
+* <b>It finds that both 14 and 33 are already in ascending order. For now, 14 is in sorted sub-list.</b>
+
+![image](https://user-images.githubusercontent.com/59999317/137071342-83a8dd88-9cff-4cc4-a9a4-7b89609d4a2c.png)
+
+* <b>Insertion sort moves ahead and compares 33 with 27.</b>
+
+![image](https://user-images.githubusercontent.com/59999317/137071421-5192a6d2-445d-4bd7-b77c-a7b07eae65a8.png)
+
+* <b>And finds that 33 is not in the correct position.</b>
+
+![image](https://user-images.githubusercontent.com/59999317/137071433-593556c0-11ee-4f21-a201-7adf5b8f4680.png)
+
+* <b>It swaps 33 with 27. It also checks with all the elements of sorted sub-list. Here we see that the sorted sub-list has only one element 14, and 27 is greater than 14. Hence, the sorted sub-list remains sorted after swapping.</b>
+
+![image](https://user-images.githubusercontent.com/59999317/137071448-21886256-a021-45c3-9410-12066723502f.png)
+
+* <b>By now we have 14 and 27 in the sorted sub-list. Next, it compares 33 with 10.</b>
+
+![image](https://user-images.githubusercontent.com/59999317/137071459-02057ea8-6271-4a44-88d1-8db545962be0.png)
+
+* <b>These values are not in a sorted order.</b>
+
+![image](https://user-images.githubusercontent.com/59999317/137071483-2abe14b9-d025-4187-9c52-58f47c91e15d.png)
+
+* <b>So we swap them.</b>
+
+![image](https://user-images.githubusercontent.com/59999317/137071514-855f53f1-2473-4159-a3a9-24de68985f90.png)
+
+* <b>However, swapping makes 27 and 10 unsorted.</b>
+
+![image](https://user-images.githubusercontent.com/59999317/137071536-abb806f5-c8e7-4477-b6ce-993c72347687.png)
+
+* <b>Hence, we swap them too.</b>
+
+![image](https://user-images.githubusercontent.com/59999317/137071548-4d667524-f8b5-4ce4-b213-47809f4d5c2a.png)
+
+* <b>Again we find 14 and 10 in an unsorted order.</b>
+
+![image](https://user-images.githubusercontent.com/59999317/137071563-2a5d9810-454a-4463-84ac-7dade2df8629.png)
+
+* <b>We swap them again. By the end of third iteration, we have a sorted sub-list of 4 items.</b>
+
+![image](https://user-images.githubusercontent.com/59999317/137071572-fda62b1d-bde9-4d24-8b33-caf16db32d23.png)
+
+><b>This process goes on until all the unsorted values are covered in a sorted sub-list. Now we shall see some programming aspects of insertion sort.</b>
+
+---
